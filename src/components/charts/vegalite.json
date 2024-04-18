@@ -1,0 +1,106 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 400,
+      "continuousHeight": 300
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "value": "#ddd"
+        },
+        "x": {
+          "field": "region_name",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "total_sales",
+          "type": "quantitative"
+        }
+      },
+      "height": 300,
+      "selection": {
+        "selector001": {
+          "type": "interval",
+          "encodings": [
+            "x"
+          ]
+        }
+      },
+      "width": 1000
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "region_name",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "total_sales",
+          "type": "quantitative"
+        }
+      },
+      "height": 300,
+      "transform": [
+        {
+          "filter": {
+            "selection": "selector001"
+          }
+        }
+      ],
+      "width": 1000
+    }
+  ],
+  "data": {
+    "name": "data-e4a5e2906d974f629436c6017bf517b1"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-e4a5e2906d974f629436c6017bf517b1": [
+      {
+        "region_name": "Poland",
+        "total_sales": 435041
+      },
+      {
+        "region_name": "Iran",
+        "total_sales": 353566
+      },
+      {
+        "region_name": "Palestinian Territory",
+        "total_sales": 291565
+      },
+      {
+        "region_name": "Ethiopia",
+        "total_sales": 276368
+      },
+      {
+        "region_name": "Togo",
+        "total_sales": 201465
+      },
+      {
+        "region_name": "Indonesia",
+        "total_sales": 201017
+      },
+      {
+        "region_name": "Australia",
+        "total_sales": 187963
+      },
+      {
+        "region_name": "Mexico",
+        "total_sales": 181337
+      },
+      {
+        "region_name": "Albania",
+        "total_sales": 163653
+      },
+      {
+        "region_name": "Azerbaijan",
+        "total_sales": 159200
+      }
+    ]
+  }
+}

@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+// import BarChart from "./components/barChart"
+import Chart from './components/vegaChart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      {/* <BarChart/> */}
+      <Chart/>
+      {/* <iframe title="Sample Report Demo" width="1140" height="541.25" src="https://playground.powerbi.com/sampleReportEmbed" frameborder="0" allowFullScreen="true"></iframe> */}
+  </div>
   );
 }
 

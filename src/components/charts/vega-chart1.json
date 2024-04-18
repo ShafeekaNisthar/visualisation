@@ -1,0 +1,2577 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "region_id": 1,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 2,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 3,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 4,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 5,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 8,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 9,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 10,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 12,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 16,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 17,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 21,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 22,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 26,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 27,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 28,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 29,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 30,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 32,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 34,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 35,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 36,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 39,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 40,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 42,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 46,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 47,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 50,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 52,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 53,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 54,
+        "transaction_amount": 5
+      },
+      {
+        "region_id": 55,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 57,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 58,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 61,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 65,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 66,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 68,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 69,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 71,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 73,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 74,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 76,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 77,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 78,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 80,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 82,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 84,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 85,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 86,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 87,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 90,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 91,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 93,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 94,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 95,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 98,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 100,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 101,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 102,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 104,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 105,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 106,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 107,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 108,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 109,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 110,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 112,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 113,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 114,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 117,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 121,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 122,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 123,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 126,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 127,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 128,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 129,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 130,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 131,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 132,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 133,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 134,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 135,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 136,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 137,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 138,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 139,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 140,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 144,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 146,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 147,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 148,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 150,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 151,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 152,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 153,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 154,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 155,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 156,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 157,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 158,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 159,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 160,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 161,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 162,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 165,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 167,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 169,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 170,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 171,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 172,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 173,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 174,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 176,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 177,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 179,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 181,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 183,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 184,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 185,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 186,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 187,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 190,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 193,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 195,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 197,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 199,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 200,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 201,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 203,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 206,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 207,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 210,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 212,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 213,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 216,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 218,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 221,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 222,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 223,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 224,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 227,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 230,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 231,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 232,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 236,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 237,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 238,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 240,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 243,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 244,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 246,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 248,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 250,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 251,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 253,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 255,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 256,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 258,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 260,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 261,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 262,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 263,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 265,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 266,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 268,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 271,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 272,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 273,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 274,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 275,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 279,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 280,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 282,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 283,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 284,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 285,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 286,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 287,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 289,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 290,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 293,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 294,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 295,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 297,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 298,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 299,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 300,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 301,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 302,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 306,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 307,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 308,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 312,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 313,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 315,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 316,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 317,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 318,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 319,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 321,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 322,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 325,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 326,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 327,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 329,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 330,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 331,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 332,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 333,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 334,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 335,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 336,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 337,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 339,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 340,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 345,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 346,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 347,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 348,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 349,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 350,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 351,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 352,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 355,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 356,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 357,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 358,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 360,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 363,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 364,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 366,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 367,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 368,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 369,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 372,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 374,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 376,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 377,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 378,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 380,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 381,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 382,
+        "transaction_amount": 5
+      },
+      {
+        "region_id": 383,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 385,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 387,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 389,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 390,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 391,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 392,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 393,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 396,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 398,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 399,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 400,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 402,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 403,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 405,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 406,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 407,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 408,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 409,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 410,
+        "transaction_amount": 5
+      },
+      {
+        "region_id": 411,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 412,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 413,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 415,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 417,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 418,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 419,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 421,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 422,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 423,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 425,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 426,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 429,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 430,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 431,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 432,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 433,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 434,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 435,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 439,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 441,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 442,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 443,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 445,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 446,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 447,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 448,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 449,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 450,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 451,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 452,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 453,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 455,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 458,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 460,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 462,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 463,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 464,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 467,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 468,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 469,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 470,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 471,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 472,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 475,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 477,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 478,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 480,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 482,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 484,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 487,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 488,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 489,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 490,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 491,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 492,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 494,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 495,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 496,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 497,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 500,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 502,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 505,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 506,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 508,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 510,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 512,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 513,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 514,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 518,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 519,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 521,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 522,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 523,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 526,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 527,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 528,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 529,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 531,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 533,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 534,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 536,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 537,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 539,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 540,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 544,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 545,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 546,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 547,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 548,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 550,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 552,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 553,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 555,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 556,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 557,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 558,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 562,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 563,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 570,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 571,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 573,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 576,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 580,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 581,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 582,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 584,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 585,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 586,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 588,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 589,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 590,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 591,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 592,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 593,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 594,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 596,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 597,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 600,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 601,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 602,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 603,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 604,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 605,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 606,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 608,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 610,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 614,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 615,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 616,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 617,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 618,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 619,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 620,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 621,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 622,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 623,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 624,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 626,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 627,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 631,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 633,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 634,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 638,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 640,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 643,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 645,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 646,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 647,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 648,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 649,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 650,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 651,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 654,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 655,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 656,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 658,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 660,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 665,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 669,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 670,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 672,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 673,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 674,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 675,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 677,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 678,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 681,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 682,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 684,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 685,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 688,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 689,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 690,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 691,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 694,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 695,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 696,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 697,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 699,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 700,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 702,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 704,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 705,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 709,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 710,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 711,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 712,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 713,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 714,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 717,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 718,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 719,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 720,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 721,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 722,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 723,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 724,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 726,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 727,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 729,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 731,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 732,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 733,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 736,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 737,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 739,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 740,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 741,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 742,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 745,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 747,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 748,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 749,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 752,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 753,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 754,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 756,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 757,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 761,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 763,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 764,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 766,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 767,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 768,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 769,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 771,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 773,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 774,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 776,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 777,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 778,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 779,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 781,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 783,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 786,
+        "transaction_amount": 5
+      },
+      {
+        "region_id": 787,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 788,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 789,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 790,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 791,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 795,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 796,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 797,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 802,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 804,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 805,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 807,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 809,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 810,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 812,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 814,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 816,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 817,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 820,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 821,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 823,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 824,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 825,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 827,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 828,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 830,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 831,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 832,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 833,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 834,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 835,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 837,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 838,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 839,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 842,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 843,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 844,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 845,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 846,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 847,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 848,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 849,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 850,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 851,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 852,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 853,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 854,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 857,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 858,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 861,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 862,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 863,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 865,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 866,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 867,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 870,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 873,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 874,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 875,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 876,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 879,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 880,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 885,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 886,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 888,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 890,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 891,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 892,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 893,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 894,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 898,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 899,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 900,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 902,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 904,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 905,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 906,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 908,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 909,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 911,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 912,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 915,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 918,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 919,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 920,
+        "transaction_amount": 4
+      },
+      {
+        "region_id": 921,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 922,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 924,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 925,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 926,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 927,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 929,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 930,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 933,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 934,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 936,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 937,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 938,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 941,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 942,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 943,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 944,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 946,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 948,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 949,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 950,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 952,
+        "transaction_amount": 5
+      },
+      {
+        "region_id": 953,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 955,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 956,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 957,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 958,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 959,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 960,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 961,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 968,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 969,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 970,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 971,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 973,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 974,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 976,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 977,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 978,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 979,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 980,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 981,
+        "transaction_amount": 3
+      },
+      {
+        "region_id": 983,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 984,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 985,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 986,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 987,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 990,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 993,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 996,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 997,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 998,
+        "transaction_amount": 2
+      },
+      {
+        "region_id": 999,
+        "transaction_amount": 1
+      },
+      {
+        "region_id": 1000,
+        "transaction_amount": 2
+      }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "region_id",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "transaction_amount",
+      "type": "quantitative"
+    }
+  }
+}

@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+*{
+    margin: 0.7em 0.7em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Styling for the entire slider container */
+.rc-slider {
+    width: 100%; /* Set the width as needed */
+    margin: 0 auto; /* Center the slider horizontally */
+    padding: 10px 0; /* Add some padding for better spacing */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Styling for the track (the background of the slider) */
+  .rc-slider-track {
+    background: #007bff; /* Track color */
+    height: 4px; /* Track height */
+    border-radius: 2px; /* Make the track ends rounded */
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Styling for the active track (the part of the track filled by the handle) */
+  .rc-slider-handle-dragging .rc-slider-track,
+  .rc-slider-handle-active .rc-slider-track {
+    background: #007bff; /* Color for the active track */
   }
-}
+  
+  /* Styling for the handle (the slider thumb) */
+  .rc-slider-handle {
+    background: #fff; /* Handle color */
+    border: 2px solid #007bff; /* Handle border color */
+    width: 24px; /* Handle width */
+    height: 24px; /* Handle height */
+    border-radius: 50%; /* Make the handle circular */
+    cursor: grab; /* Use 'grab' cursor to indicate it's draggable */
+  }
+  
+  /* Styling for the handle when being dragged (optional) */
+  .rc-slider-handle:active {
+    cursor: grabbing; /* Use 'grabbing' cursor while dragging */
+  }
+  
+  /* Styling for the marks (tick marks on the slider) */
+  .rc-slider-mark {
+    display: none; /* Hide the marks */
+  }
+  
+  /* Styling for the tooltip (the value displayed when dragging) */
+  .rc-slider-tooltip {
+    background: #007bff; /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    border: none; /* Remove tooltip border */
+    border-radius: 4px; /* Tooltip border radius */
+    font-size: 14px; /* Tooltip font size */
+    padding: 4px 8px; /* Add some padding */
+  }
+  
